@@ -11,16 +11,16 @@ function min(a, b, c) {
 min(9, 16, 3);
 
 // - створити функцію яка приймає три числа та виводить найбільше. (Без Math.max!)
-// function max(a, b, c) {
-//     if (a > b && a > c) {
-//         console.log(a);
-//     } else if (b > a && b > c) {
-//         console.log(b);
-//     } else if (c > a && c > b) {
-//         console.log(c)
-//     }
-// }
-//
+function max(a, b, c) {
+    if (a > b && a > c) {
+        console.log(a);
+    } else if (b > a && b > c) {
+        console.log(b);
+    } else if (c > a && c > b) {
+        console.log(c)
+    }
+}
+
 // max(91, 16, 32);
 // // - створити функцію яка повертає найбільше число з масиву
 

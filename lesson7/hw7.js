@@ -31,15 +31,15 @@ console.log(usersFilter)
 let usersSort = users.sort((a,b) => b.id - a.id)
 console.log(usersSort)
 class Client {
+    constructor (id, name, surname, email, phone, other) {
         //не знаю чому видає помилку
-        constructor(id, name, surname, email, phone, other) {
-            this.id = id;
-            this.name = name;
-            this.surname = surname;
-            this.email = email;
-            this.phone = phone;
-            this.other = other;
-    }
+    this.id = id;
+    this.name = name;
+    this.surname = surname;
+    this.email = email;
+    this.phone = phone;
+    this.other = other;
+}
 
 };
 let client1 = new Client(1,`Anna`,`Roma`,`A.Roma@gmail.com`,111111,[1,2,3]);
